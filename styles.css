@@ -1,4 +1,31 @@
-.logo {
-    height: 30px;
-    width: 30px;
+/* Styles None */
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Styles */
+
+header {
+    background: #1F2937;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header-links {
+    
 }
