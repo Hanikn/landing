@@ -22,10 +22,27 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
 }
 
 .header-links {
-    
+    display: flex;
+    gap: 200px;
+    font-size: 20px;
+}
+
+.header-link {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    color:#E5E7EB;
+}
+
+.header-link:hover {
+    background-size: 100% 2px;
 }
