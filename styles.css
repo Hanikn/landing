@@ -27,11 +27,22 @@ nav {
     padding-top: 20px;
 }
 
+
+.logo-link:hover img {
+    filter: brightness(0) saturate(100%) invert(58%) sepia(77%) saturate(5833%) hue-rotate(205deg) brightness(104%) contrast(93%);
+}
+
+.logo-link:active img {
+  filter: brightness(0) saturate(100%) invert(13%) sepia(94%) saturate(7492%) hue-rotate(209deg) brightness(88%) contrast(99%);
+}
+
 .header-links {
     display: flex;
     gap: 200px;
     font-size: 20px;
 }
+
+/* Header Links Hover */
 
 .header-link {
     text-decoration: none;
@@ -45,4 +56,50 @@ nav {
 
 .header-link:hover {
     background-size: 100% 2px;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    width: 550px;
+}
+
+.hero-heading {
+    font-weight: 900;
+    font-size:48px;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.hero-text {
+    font-size:18px;
+    color: #E5E7EB;
+    line-height: 1.5;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+}
+
+.hero-button:hover {
+    background-color: #014db8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-button:active {
+    transition: 0s;
+    background-color: #0d3066;
 }
