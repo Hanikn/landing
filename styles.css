@@ -27,22 +27,23 @@ nav {
     padding-top: 20px;
 }
 
+/* Logo Styles */
 
 .logo-link:hover img {
-    filter: brightness(0) saturate(100%) invert(58%) sepia(77%) saturate(5833%) hue-rotate(205deg) brightness(104%) contrast(93%);
+  filter: brightness(0) saturate(100%) invert(58%) sepia(77%) saturate(5833%) hue-rotate(205deg) brightness(104%) contrast(93%);
 }
 
 .logo-link:active img {
   filter: brightness(0) saturate(100%) invert(13%) sepia(94%) saturate(7492%) hue-rotate(209deg) brightness(88%) contrast(99%);
 }
 
+/* Header Links */
+
 .header-links {
     display: flex;
     gap: 200px;
     font-size: 20px;
 }
-
-/* Header Links Hover */
 
 .header-link {
     text-decoration: none;
@@ -102,4 +103,8 @@ nav {
 .hero-button:active {
     transition: 0s;
     background-color: #0d3066;
+}
+
+.hero-img-div {
+    display: flex;
 }
