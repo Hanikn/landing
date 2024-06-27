@@ -132,3 +132,28 @@ main {
     font-size: 35px;
     padding-top: 20px;
 }
+
+/* Main Benefits Section */
+
+.main-images {
+    display: flex;
+    gap: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image-item {
+    border: 10px solid #000000;
+    border-radius: 30px;
+}
+
+.image-item:hover {
+    border: 10px solid #3882F6;
+}
+
+.para-main {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+}
