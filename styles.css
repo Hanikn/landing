@@ -157,3 +157,27 @@ main {
     font-size: large;
     font-weight: bold;
 }
+
+/* Quote Section */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.quote-paragraph {
+    font-size: 27px;
+    width: 1000px;
+    font-style: italic;
+    padding: 110px;
+    box-sizing: border-box;
+}
+
+.quote-cite {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
